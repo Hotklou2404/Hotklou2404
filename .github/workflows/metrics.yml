@@ -29,8 +29,12 @@ jobs:
           repositories_skipped: lowlighter/lowlighter
           # Handle you use when authoring commits, which can be used to filter commits in other plugins
           commits_authoring: Hotklou2404
+          # Enable Introduction plugin
+          plugin_introduction: yes
+          # Hide section title
+          plugin_introduction_title: no
           # Set your timezone
-          config_timezone:  Africa/Johannesburg
+          config_timezone: Africa/Johannesburg
           # Enable Achievemnts plugin
           plugin_achievements: yes
           # Display achievements with this rank or higher
@@ -45,6 +49,10 @@ jobs:
           plugin_achievements_display: compact
           # Display size
           config_display: columns
+          # How many times it can retry to render metrics
+          retries: 3
+          # Delay between retries (in seconds)
+          retries_delay: 300
           # Order metrics content
           config_order: base.header, base.community, base.activity, base.repositories, base.metadata
           
