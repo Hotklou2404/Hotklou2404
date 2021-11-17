@@ -48,7 +48,7 @@ jobs:
           # Display mode
           plugin_achievements_display: compact
           # Display size
-          config_display: columns
+          config_display: large
           # How many times it can retry to render metrics
           retries: 3
           # Delay between retries (in seconds)
