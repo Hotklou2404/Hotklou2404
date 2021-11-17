@@ -93,15 +93,6 @@ jobs:
           plugin_habits_charts: yes
           # Trim unused hours on daily chart
           plugin_habits_trim: no
-          # Enable Licenses plugin
-          plugin_licenses: yes
-          # Command to setup target repository
-          plugin_licenses_setup: npm ci
-          # Display used licenses ratio
-          plugin_licenses_ratio: yes
-          # Display permissions, limitations and conditions
-          plugin_licenses_legal: yes
-          # Enable Followup plugin
           plugin_followup: yes
           # Display overall status of issues/pull requests created on user's repositories and created by user
           plugin_followup_sections: repositories, user
@@ -111,19 +102,13 @@ jobs:
           plugin_isocalendar: yes
           # Display full year instead of half year
           plugin_isocalendar_duration: full-year
-          # Enable Activity plugin
-          plugin_activity: yes
-          # Limit to 5 events
-          plugin_activity_limit: 10
-          # Load up to 100 recent events from API (should be higher than "limit")
-          plugin_activity_load: 1000
-          # Keep only events from last 14 days (set to 0 for no limit)
-          plugin_activity_days: 30
-          # Show all events (use table above to filter events types)
-          plugin_activity_filter: all
-          # Only display public events
-          plugin_activity_visibility: public
-          # Display events timestamps
-          plugin_activity_timestamps: yes
-          # Ignored repositories
-          plugin_activity_skipped: repo
+          # Enable Notable plugin
+          plugin_notable: yes
+          # Only display repositories with 500 stars or more (syntax based on GitHub search query)
+          plugin_notable_filter: stars:>500 
+          # Only display contributions within organization repositories
+          plugin_notable_from: organization
+          # Display repositories name instead of only organization name
+          plugin_notable_repositories: yes
+          # Gather additional informations about contributions
+          plugin_notable_indepth: yes
