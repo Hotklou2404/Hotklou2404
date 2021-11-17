@@ -30,9 +30,9 @@ jobs:
           # Handle you use when authoring commits, which can be used to filter commits in other plugins
           commits_authoring: Hotklou2404
           # Enable Introduction plugin
-          plugin_introduction: yes
+          # plugin_introduction: yes
           # Hide section title
-          plugin_introduction_title: no
+          # plugin_introduction_title: no
           # Set your timezone
           config_timezone: Africa/Johannesburg
           # Enable Achievemnts plugin
@@ -48,7 +48,7 @@ jobs:
           # Display mode
           plugin_achievements_display: compact
           # Display size
-          # config_display: large
+          config_display: large
           # How many times it can retry to render metrics
           retries: 3
           # Delay between retries (in seconds)
