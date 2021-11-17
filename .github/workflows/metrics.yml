@@ -43,4 +43,4 @@ jobs:
           plugin_achievements_limit: 0
           # Display mode
           plugin_achievements_display: compact
-          config_order: base.header, base.community, base.repositories, base.activity, base.metadata, achievements
+          config_order: base.header, base.community, achievements, base.repositories, base.activity, base.metadata
