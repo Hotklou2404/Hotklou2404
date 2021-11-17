@@ -46,7 +46,7 @@ jobs:
           # Display all unlocked achievement matching threshold and secrets params
           plugin_achievements_limit: 0
           # Display mode
-          plugin_achievements_display: compact
+          plugin_achievements_display: detailed
           # Enable Languages plugin
           plugin_languages: yes
           # List of languages to ignore
@@ -77,3 +77,15 @@ jobs:
           plugin_languages_recent_load: 1000
           # Limit recently used stats to this amount of days
           plugin_languages_recent_days: 30
+          # Enable Habits plugin
+          plugin_habits: yes
+          # Use 200 events to compute habits
+          plugin_habits_from: 1000
+          # Keep only events from last 30 days
+          plugin_habits_days: 30
+          # Display facts section
+          plugin_habits_facts: yes
+          # Display charts section
+          plugin_habits_charts: yes
+          # Trim unused hours on daily chart
+          plugin_habits_trim: no
