@@ -44,3 +44,4 @@ jobs:
           # Display mode
           plugin_achievements_display: compact
           
+go get github.com/kovetskiy/github-watchers
