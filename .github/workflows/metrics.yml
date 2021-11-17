@@ -22,7 +22,8 @@ jobs:
           repositories_affiliations: owner, collaborator                    # Display only repositories where user is owner or collaborator
           repositories_skipped: lowlighter/lowlighter                       # Exclude automatically "lowlighter/lowlighter" repository from plugins allowing a skip list
           commits_authoring: Hotklou2404                                    # Handle you use when authoring commits, which can be used to filter commits in other plugins
-          plugin_achievements: yes
+          config_timezone:  Africa/Johannesburg                             # Set your timezone
+          plugin_achievements: yes                                          # Enable Achievemnts plugin
           plugin_achievements_threshold: B                                  # Display achievements with rank B or higher
           plugin_achievements_secrets: yes                                  # Display unlocked secrets achievements
           plugin_achievements_ignored: octonaut                             # Hide octonaut achievement
