@@ -27,10 +27,6 @@ jobs:
           repositories_affiliations: owner, collaborator
           # Exclude automatically these repositories from plugins allowing a skip list
           repositories_skipped: lowlighter/lowlighter
-          # Enable Lines plugin
-          plugin_lines: yes
-          # List of skipped repositories
-          plugin_lines_skipped: repo
           # Handle you use when authoring commits, which can be used to filter commits in other plugins
           commits_authoring: Hotklou2404
           # Set your timezone
@@ -39,6 +35,12 @@ jobs:
           retries: 3
           # Set the delay between metric rendering retries
           retries_delay: 300
+          # LINES PLUGIN
+          # Enable Lines plugin
+          plugin_lines: yes
+          # List of skipped repositories
+          plugin_lines_skipped: repo
+          # ACHIEVEMENTS PLUGIN
           # Enable Achievemnts plugin
           plugin_achievements: yes
           # Display achievements with this rank or higher
@@ -51,6 +53,7 @@ jobs:
           plugin_achievements_limit: 0
           # Display mode
           plugin_achievements_display: detailed
+          # LANGUAGES PLUGIN
           # Enable Languages plugin
           plugin_languages: yes
           # List of languages to ignore
@@ -81,6 +84,7 @@ jobs:
           plugin_languages_recent_load: 1000
           # Limit recently used stats to this amount of days
           plugin_languages_recent_days: 30
+          # HABITS PLUGIN
           # Enable Habits plugin
           plugin_habits: yes
           # Use 200 events to compute habits
@@ -93,15 +97,17 @@ jobs:
           plugin_habits_charts: yes
           # Trim unused hours on daily chart
           plugin_habits_trim: no
+          # FOLLOWUP PLUGIN
+          # Enable Followup plugin
           plugin_followup: yes
           # Display overall status of issues/pull requests created on user's repositories and created by user
           plugin_followup_sections: repositories, user
-          # Enable Traffic plugin
-          plugin_traffic: yes
+          # ISOCALENDAR PLUGIN
           # Enable Isocalendar plugin
           plugin_isocalendar: yes
           # Display full year instead of half year
           plugin_isocalendar_duration: full-year
+          # NOTABLE PLUGIN
           # Enable Notable plugin
           plugin_notable: yes
           # Only display repositories with 500 stars or more (syntax based on GitHub search query)
@@ -112,3 +118,6 @@ jobs:
           plugin_notable_repositories: yes
           # Gather additional informations about contributions
           plugin_notable_indepth: yes
+          # TRAFFIC PLUGIN
+          # Enable Traffic plugin
+          plugin_traffic: yes
