@@ -31,6 +31,8 @@ jobs:
           commits_authoring: Hotklou2404
           # Set your timezone
           config_timezone: Africa/Johannesburg
+          # Set display size
+          config_display: columns
           # Set the amount of times that the rendering of the metrics can be retried
           retries: 3
           # Set the delay between metric rendering retries
