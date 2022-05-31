@@ -450,7 +450,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>No recent push activity found over last 15 days</small>
+                <small>No recent push activity found over last 16 days</small>
                 <div class="row fill-width">
                     <section>
                     </section>
@@ -2750,7 +2750,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 31 May 2022, 21:15:30 (timezone Africa/Johannesburg) with lowlighter/metrics@3.23.0</span>
+                <span>Last updated 31 May 2022, 22:21:31 (timezone Africa/Johannesburg) with lowlighter/metrics@3.23.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
